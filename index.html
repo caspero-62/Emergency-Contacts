@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Emergency Number List</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>Emergency contact list</h2>
+        </nav>
+    </header>
+
+    <div class="search">
+        <div id="search">
+            <label for="search"></label>
+            <i class="fas fa-search"></i>
+            <input type="search" name="search" autocomplete="off" placeholder="Search for contact name..." id="search-input">
+        </div>
+    </div>
+
+    <section class="card-container">
+
+        <div class="lds-ripple spinner none"><div></div><div></div></div>
+    
+    </section>
+
+    <!-- Error Message Section -->
+    <section class="error-message none">
+        <div>
+            <p></p>
+        </div>
+    </section>
+    
+    <script src="JS/script.js"></script>
+</body>
+</html>
